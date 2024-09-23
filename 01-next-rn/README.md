@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js template 
+Template này được sử dụng cho video fullstack Nextjs/Nest.js của sinh viên Hải Dương 
 
-## Getting Started
+### Môi trường chạy dự án: Node.js v20.14.0
+https://nodejs.org/download/release/v20.14.0/
 
-First, run the development server:
+## Về tác giả
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+===
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Các bước cài đặt: (chế độ development)
+1. clone code
+2. cài đặt thư viện: npm i
+3. Update file .env.development (nếu cần thiết)
+4. Chạy dự án: npm run dev
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+===
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Cách chạy tại chế độ production:
+1. clone code
+2. cài đặt thư viện: npm i
+3. Update file .env.production (nếu cần thiết)
+4. Build dự án: npm run build
+5. Chạy dự án: npm run preview
